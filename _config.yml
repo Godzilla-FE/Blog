@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-keywords:
-author: John Doe
-language: zh-cn
+title: Godzilla
+subtitle: 哥斯拉-FE
+description: 京东金融成都前端团队
+keywords: Blog 博客 JavaScript HTML CSS Node Nodejs
+author: Godzilla-FE
+language: zh-CN
 timezone: Asia/Chongqing
 
 # URL
@@ -81,3 +81,9 @@ deploy:
   type: git
   repo: git@github.com:Godzilla-FE/Blog.git
   branch: master
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
