@@ -6,13 +6,11 @@ tags:
 
 `postion`用于指定一个元素在文档中的定位方式
 
-<!--more-->
-
 # 使用语法
 
 支持属性`static | relative | absolute | fixed | sticky`,其中默认值为`static`
 注意，position 属性只针对`display`不为`table-column-group | table-column`的元素生效
-
+<!--more-->
 ## static
 默认值,left、top、bottom、right四个定位属性不会生效
 
