@@ -1,5 +1,8 @@
 ---
 title: css属性:列表list
+date: 2018-07-25
+author: scliuyang
+category: css basic
 tags: 
 - css基础
 ---
