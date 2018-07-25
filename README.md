@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+# godzllia Blog
 
-You can use the [editor on GitHub](https://github.com/Godzilla-FE/Blog/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+基于 hexo 搭建，使用 next 主题
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# 使用流程
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+git clone https://github.com/xgfe/xgfe.github.io.git Blog
+cd Blog
+npm i
+npm run server
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+默认开启 4000 端口为本地预览
+文章路径为`source/_post/title.md`
 
-### Jekyll Themes
+# 博客头部规范
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Godzilla-FE/Blog/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+```
+---
+title: css属性:列表list //标题
+date: 2018-07-25 // 创建日志
+author: scliuyang // 作者
+category: css basic // 所属分类
+tags:               // 文章包含标签
+- css基础
+---
+```
