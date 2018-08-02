@@ -13,6 +13,7 @@ tags:
 ```
 border：<line-width> || <line-style> || <color>
 ```
+<!--more--> 
 ### border-width
 > 定义元素的边框厚度
 ```
