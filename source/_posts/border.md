@@ -1,7 +1,7 @@
 ---
 title: css属性:背景与边框
 date: 2018-08-02
-author:ChenEnjun
+author: ChenEnjun
 category: css basic
 tags: border background
 - css基础
