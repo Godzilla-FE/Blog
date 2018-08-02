@@ -3,7 +3,7 @@ title: css属性:背景与边框
 date: 2018-08-02
 author: ChenEnjun
 category: css basic
-tags: border background
+tags:
 - css基础
 ---
 
@@ -52,10 +52,8 @@ none：无阴影
 <color>：定义元素阴影的颜色。如果该值未定义，阴影颜色将默认取当前最近的文本颜色
 inset：定义元素的阴影类型为内阴影。该值为空时，则元素的阴影类型为外阴影
 ```
-<script async src="//jsrun.net/JsgKp/embed/all/light/"></script>
 > 结合伪类实现阴影
 <script async src="//jsrun.net/GsgKp/embed/all/light/"></script>
-
 ### border-radius
 > 定义元素的阴影
 
