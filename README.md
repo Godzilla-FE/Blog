@@ -5,7 +5,7 @@
 # 使用流程
 
 ```
-git clone https://github.com/xgfe/xgfe.github.io.git Blog
+git clone https://github.com/Godzilla-FE/Blog.git Blog
 cd Blog
 npm i
 npm run server
