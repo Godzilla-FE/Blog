@@ -34,7 +34,7 @@ ridge：3D凸槽轮廓。
 inset：3D凹边轮廓。
 outset：3D凸边轮廓。
 ```
-<script async src="//jsrun.net/FsgKp/embed/all/light/"></script>
+<iframe width="100%" height="300" src="//jsrun.net/FsgKp/embedded/all/light/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 ### border-color
 > 定义元素的边框颜色
@@ -52,8 +52,12 @@ none：无阴影
 <color>：定义元素阴影的颜色。如果该值未定义，阴影颜色将默认取当前最近的文本颜色
 inset：定义元素的阴影类型为内阴影。该值为空时，则元素的阴影类型为外阴影
 ```
+<iframe width="100%" height="300" src="//jsrun.net/xsgKp/embedded/all/light/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
 > 结合伪类实现阴影
-<script async src="//jsrun.net/GsgKp/embed/all/light/"></script>
+
+<iframe width="100%" height="300" src="//jsrun.net/GsgKp/embedded/all/light/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
 ### border-radius
 > 定义元素的阴影
 
@@ -117,7 +121,7 @@ to bottom：设置渐变从上到下。相当于: 180deg。这是默认值，等
 
 background-image:linear-gradient(135deg, #9DC3E6 0%, #F4B183 25%, #C9C9C9 50%, #FFD966 75%, #A9D18E 100%);
 ```
-<script async src="//jsrun.net/usgKp/embed/all/light/"></script>
+<iframe width="100%" height="300" src="//jsrun.net/usgKp/embedded/all/light/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 - [ ] 渐变图标 http://lea.verou.me/css3patterns/
 
 ### background-repeat
