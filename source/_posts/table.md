@@ -7,6 +7,8 @@ tags:
 - css基础
 ---
 
+<!--more-->
+
 ## table-layout:
 
 * fixed  : 固定布局

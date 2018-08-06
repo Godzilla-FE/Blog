@@ -9,6 +9,8 @@ tags:
 
 ## display
 
+<!--more-->
+
 - none：
    1.不展示
    2.不占物理空间（区别visibility：hidden)
