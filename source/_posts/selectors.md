@@ -411,3 +411,21 @@ URL后面跟锚点#，指向文档内某个具体的元素。这个被链接的�
 <iframe height='265' scrolling='no' title='E::selection' src='//codepen.io/scliuyang/embed/dqREOV/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/scliuyang/pen/dqREOV/'>E::selection</a> by scliuyang (<a href='https://codepen.io/scliuyang'>@scliuyang</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 {% endraw %}
+
+
+
+# 选择器优先级
+
+|编号   |   权重   |  选择器或样式   |
+|------ |---------|---------------|
+|1      |1000     |  内联样式      |
+|2      |100      |  ID选择器：#id{...}|     |
+|3      |10       |  类选择器，伪类选择器，属性选择器：.class{...}、:hover{...}、[arrtibute=value]       |
+|4      |1        |  标签选择器，伪元素选择器：div{...}、::after{...}    |
+|5      |0        |  其他选择器：通配选择器(*)，子选择器(>)，相邻同胞选择器(+)    |
+|6      |无穷大    |  important    |
+
+{% raw %}
+<iframe height='265' scrolling='no' title='selectorPriority' src='//codepen.io/liuzhaozhao/embed/MqGLvp/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/liuzhaozhao/pen/MqGLvp/'>selectorPriority</a> by liuzhaozhao828 (<a href='https://codepen.io/liuzhaozhao'>@liuzhaozhao</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+{% endraw %}
