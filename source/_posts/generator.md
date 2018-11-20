@@ -271,7 +271,7 @@ gen.throw('ops!');
 
 [生成器的传入值与传出值](https://jsrun.net/YQhKp/edit)
 
-#### 2.生成器自执行器
+#### 3.生成器自执行器
 
 ```
 function run(genFuc, initialValue) {
@@ -296,7 +296,7 @@ function run(genFuc, initialValue) {
 }
 ```
 
-#### 3.遍历一科二叉树
+#### 4.遍历一棵二叉树
 
 ```
 class Btree{
@@ -363,6 +363,10 @@ for (let x of tree) {
 // Output: a,b,c,d,e
 ```
 [generator实现一棵二叉树的先中后序遍历](https://jsrun.net/SehKp/edit)
+
+#### 5.生成器的并发
+
+[生成器的并发](https://jsrun.net/UQhKp/edit)
 
 ### async 函数
 async function是什么？其实就是generator的语法糖，即generator + 自动执行器。
